@@ -94,3 +94,17 @@ li a{
     flex-direction: column;
     min-height: 80vh;
 }
+
+.information-header{
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.boxes{
+    flex: 5 0 auto;
+}
