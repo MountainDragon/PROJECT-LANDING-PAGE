@@ -88,3 +88,9 @@ li a{
 .button:hover{
     cursor: pointer;
 }
+
+.information{
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+}
