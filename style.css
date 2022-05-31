@@ -99,7 +99,7 @@ li a{
     flex: 1 0 auto;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
@@ -107,16 +107,29 @@ li a{
 
 .boxes{
     flex: 5 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
 }
 
 .picture{
-    
+    display: flex;
+    flex-direction: column;
 }
 
-.season-image{
-
+.season-image img{
+    max-width: 150px;
+    height: auto;
+    border-radius: 14px;
+    border-color: #3882f6;
+    border: 4px;
 }
 
 .img-text{
-
+    max-width: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    color: #1f2937;
 }
