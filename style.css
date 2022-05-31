@@ -85,6 +85,6 @@ li a{
     border-style: none;
 }
 
-.button :hover{
+.button:hover{
     cursor: pointer;
 }
