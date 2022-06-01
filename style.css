@@ -165,3 +165,18 @@ li a{
     font-size: 24px;
     font-weight: 900;
 }
+
+.action{
+    display: flex;
+    flex-direction: column;
+    min-height: 68vh;
+    box-sizing: border-box;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    min-height: 15vh;
+    box-sizing: border-box;
+    background-color: #1f2937;
+}
