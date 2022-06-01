@@ -93,6 +93,7 @@ li a{
     display: flex;
     flex-direction: column;
     min-height: 80vh;
+    box-sizing: border-box;
 }
 
 .information-header{
@@ -132,4 +133,35 @@ li a{
     flex-wrap: wrap;
     text-align: center;
     color: #1f2937;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    min-height: 70vh;
+    box-sizing: border-box;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+
+.main-quote{
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.credits{
+    display: flex;
+    justify-content: flex-end;
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: 900;
 }
