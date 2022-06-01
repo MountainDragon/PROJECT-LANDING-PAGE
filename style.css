@@ -180,3 +180,12 @@ li a{
     box-sizing: border-box;
     background-color: #1f2937;
 }
+
+.footer-text{
+    display: flex;
+    color: #F9FAF8;
+    font-size: 22px;
+    font-weight: 600;
+    justify-content: center;
+    margin-top: 35px;
+}
